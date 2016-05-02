@@ -2,25 +2,25 @@
 # Site settings
 ###############
 
-title: 'Ali Nawaz'
+title: 'Jawad Firdous'
 description: >
   A software engineer with more than two years of experience in professional environment. My honed skills include problem
   solving and Rails framework. Also, I really converse well with jQuery, HTML and CSS.
 
 keywords: >
-  ali nawaz, ruby on rails, devsinc, comsats, eduleaf
+  Jawad Firdous, ruby on rails, devsinc, Lums
 
 baseurl: ''
-url: 'https://alinawaz.me' # the base hostname & protocol for your site
+url: 'https://jawadfirdous.me' # the base hostname & protocol for your site
 
 person:
-  name: 'Ali Nawaz'
-  family_name: 'Nawaz'
-  given_name: 'Ali'
+  name: 'Jawad Firdous'
+  family_name: 'Firdous'
+  given_name: 'Jawad'
   city: 'Lahore'
   country: 'Pakistan'
-  education: 'studied Computer Science at COMSATS University, Lahore *(2009 - 2013)*'
-  cwork: 'leads developement at [eduleaf](https://v2.eduleaf.com){:target="_blank"}'
+  education: 'studied Computer Engineering at LUMS , Lahore *(2010 - 2012)*'
+  cwork: 'leads developement at [eduleaf](https://www.myintellirent.com){:target="_blank"}'
 
 developer:
   - 'builds web, mobile and desktop applications'
@@ -31,10 +31,8 @@ developer:
 
 professional:
   - >
-    shapes the future of collaborative exam grading for teachers at
-    [eduleaf](https://v2.eduleaf.com/){:target='_blank'},
     [DevsInc](http://devsinc.com){:target='_blank'}
-    *(Senior Software Enginner; Jan. 2015 - present)*
+    *(Senior Software Enginner; Sep. 2015 - present)*
 
   - >
     built web apps using Ruby on Rails at
@@ -44,11 +42,11 @@ professional:
   - 'used to do freelance Java SE development'
 
 social:
-  github_username: 'ali-nawaz'
-  github_pages_repo_url: 'https://github.com/ali-nawaz/ali-nawaz.github.io'
-  linkedin_url: 'http://pk.linkedin.com/in/alinawazcs'
-  email: 'hi@alinawaz.me'
-  email_text: 'hi at alinawaz.me'
+  github_username: 'jawad-firdous'
+  github_pages_repo_url: 'https://github.com/jawad-firdous/jawad-firdous.github.io'
+  linkedin_url: 'https://pk.linkedin.com/in/jawad-firdous-0b1a7886'
+  email: 'hi@jawadfirdous.me'
+  email_text: 'hi at jawadfirdous.me'
 
 
 # Build settings
