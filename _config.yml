@@ -19,15 +19,13 @@ person:
   given_name: 'Jawad'
   city: 'Lahore'
   country: 'Pakistan'
-  education: 'studied Computer Engineering at LUMS , Lahore *(2010 - 2012)*'
-  cwork: 'leads developement at [eduleaf](https://www.myintellirent.com){:target="_blank"}'
+  education: 'studied MS Computer Engineering at LUMS , Lahore *(2010 - 2012)*'
+  cwork: 'leads developement at [myintellirent](https://www.myintellirent.com){:target="_blank"}'
 
 developer:
   - 'builds web, mobile and desktop applications'
   - 'is pretty seriously seeing **Ruby & Ruby on Rails**'
   - 'likes to spice things up with **JavaScript, HTML & CSS**'
-  - 'enjoys the occasional dinner-and-a-movie with **Java(SE) & JRuby**'
-  - 'has had flings with **Java(Android), C & PHP**'
 
 professional:
   - >
@@ -37,9 +35,7 @@ professional:
   - >
     built web apps using Ruby on Rails at
     [DevsInc](http://devsinc.com){:target='_blank'}
-    *(Software Enginner; Oct. 2013 - Dec. 2014)*
-
-  - 'used to do freelance Java SE development'
+    *(Software Enginner; Oct. 2013 - Sep. 2015)*
 
 social:
   github_username: 'jawad-firdous'
