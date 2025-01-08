@@ -3,93 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechPrysm - Coming Soon</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #1E90FF, #00FA9A);
-            font-family: Arial, sans-serif;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            padding: 20px;
-        }
-        .logo {
-            max-width: 200px;
-            margin: 0 auto 20px;
-            display: block;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin: 20px 0;
-        }
-        p {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-        .timer {
-            font-size: 1.5rem;
-            margin: 20px 0;
-        }
-        .email-info {
-            margin-top: 20px;
-            font-size: 1.2rem;
-        }
-        .email-info a {
-            color: #FFD700;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .email-info a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Home - TechPrysm</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" alt="TechPrysm Logo" class="logo">
-        <h1>We're Coming Soon!</h1>
-        <p>TechPrysm is launching in:</p>
-        <div class="timer" id="countdown">
-            <!-- Timer will appear here -->
+    <nav>
+        <div class="logo">
+            <a href="index.html" style="display: flex; align-items: center;">
+                <img src="logo.png" alt="TechPrysm Logo">
+                <span>TechPrysm</span>
+            </a>
         </div>
-        <p>Stay tuned for updates!</p>
-        <p class="email-info">Send your CVs to <a href="mailto:careers@techprysm.com">careers@techprysm.com</a></p>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+           <!--  <a href="contactus.html" class="btn">Contact Us</a> -->
+        </div>
+    </nav>
+
+
+    <div class="hero">
+        <h1>Welcome to TechPrysm</h1>
+        <p>Your partner for custom software development and more!</p>
     </div>
 
-    <script>
-        // Set the launch date (adjust to your desired date and time)
-        const launchDate = new Date("2025-01-10T00:00:00").getTime();
+    <div class="container">
+        <h2>Our Core Values</h2>
+        <div class="core-values">
+            <div class="value">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovation</h3>
+                <p>Driving creative and cutting-edge solutions for every challenge.</p>
+            </div>
+            <div class="value">
+                <i class="fas fa-handshake"></i>
+                <h3>Collaboration</h3>
+                <p>Partnering with clients for success.</p>
+            </div>
+            <div class="value">
+                <i class="fas fa-user-shield"></i>
+                <h3>Transparency</h3>
+                <p>Clear communication and accountability at every stage.</p>
+            </div>
+            <div class="value">
+                <i class="fas fa-clock"></i>
+                <h3>Reliability</h3>
+                <p>Delivering scalable, robust solutions on time.</p>
+            </div>
+        </div>
 
-        // Update the countdown every second
-        const interval = setInterval(() => {
-            const now = new Date().getTime();
-            const timeLeft = launchDate - now;
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-robot"></i>
+                <h3>AI-Powered Development Solutions</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>MERN Stack Development</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fab fa-python"></i>
+                <h3>Python/Django Development</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile App Development</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Custom Software Development</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-sync-alt"></i>
+                <h3>DevOps Services</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-users"></i>
+                <h3>Staff Augmentation</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fas fa-vial"></i>
+                <h3>QA Testing and Automation</h3>
+                <a href="services.html">Learn More</a>
+            </div>
+        </div>
 
-            // Calculate days, hours, minutes, and seconds
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+        <div class="clients">
+            <h2>Our Clients</h2>
+            <div class="clients-logos">
+                <img src="client1.png" alt="Client 1">
+                <img src="client2.png" alt="Client 2">
+                <img src="client3.png" alt="Client 3">
+                <img src="client4.png" alt="Client 4">
+            </div>
+        </div>
+    </div>
 
-            // Display the countdown
-            document.getElementById("countdown").innerHTML =
-                `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
-
-            // Stop the countdown when the date is reached
-            if (timeLeft < 0) {
-                clearInterval(interval);
-                document.getElementById("countdown").innerHTML = "We're Live!";
-            }
-        }, 1000);
-    </script>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Location: Austin, Texas</p>
+            <p>Address: TechPrysm Headquarters, Floor 5</p>
+            <p>Email: <a href="mailto:careers@techprysm.com">careers@techprysm.com</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="#ai">AI-Powered Development</a></li>
+                <li><a href="#mern">MERN Stack Development</a></li>
+                <li><a href="#python">Python/Django Development</a></li>
+                <li><a href="#mobile">Mobile App Development</a></li>
+                <li><a href="#custom">Custom Software Development</a></li>
+                <li><a href="#devops">DevOps Services</a></li>
+                <li><a href="#staff">Staff Augmentation</a></li>
+                <li><a href="#qa">QA Testing and Automation</a></li>
+            </ul>
+        </div>
+        <div class="footer-section" style="text-align: center;">
+            <h3>Follow Us</h3>
+            <a href="https://www.linkedin.com/company/techprysm" target="_blank">
+                <i class="fab fa-linkedin" style="font-size: 2rem; color: #fbc02d;"></i>
+            </a>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 20px;">&copy; 2025 TechPrysm. All rights reserved.</p>
+</footer>
 </body>
 </html>
